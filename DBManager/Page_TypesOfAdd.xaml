@@ -1,0 +1,25 @@
+﻿<Page x:Class="DBManager.Page_TypesOfAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Page_TypesOfAdd" Width="1000" Height="600">
+
+    <Grid Width="1000" Height="600" Background="#FF57A832">
+        <Label x:Name="Label_CoDodac" Content="Wybierz co chcesz dodać" HorizontalAlignment="Left" Height="50" Margin="291.589,10,0,0" VerticalAlignment="Top" Width="421.963" FontSize="35" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontWeight="Bold" Foreground="#FFF4FF0B"/>
+        <Button x:Name="Btn_AddClient" Content="Klient" HorizontalAlignment="Left" Height="54.673" Margin="60.467,89.72,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" Click="Btn_AddClient_Click"/>
+        <Button x:Name="Btn_AddMachine" Content="Maszyna" HorizontalAlignment="Left" Height="54.673" Margin="291.589,89.72,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" Click="Btn_AddMachine_Click"/>
+        <Button x:Name="Btn_AddService" Content="Usługa" HorizontalAlignment="Left" Height="54.673" Margin="530.094,89.72,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" Click="Btn_AddService_Click"/>
+        <Button x:Name="Btn_AddJob" Content="Zlecenie" HorizontalAlignment="Left" Height="54.673" Margin="764.673,89.72,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" RenderTransformOrigin="0.562,0.538" FontSize="20" FontWeight="Bold" Click="Btn_AddJob_Click"/>
+        <Button x:Name="Btn_AddPaidJob" Content="Wizyty Płatne" HorizontalAlignment="Left" Height="54.673" Margin="60.467,246.729,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="Btn_AddShows" Content="Pokazy" HorizontalAlignment="Left" Height="54.673" Margin="291.589,246.729,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="Btn_AddClient_Copy" Content="Gwarancje" HorizontalAlignment="Left" Height="54.673" Margin="530.094,246.729,0,0" VerticalAlignment="Top" Width="183.458" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="Btn_AddMechanic" Content="Mechanik" HorizontalAlignment="Left" Height="54" Margin="765,247,0,0" VerticalAlignment="Top" Width="183" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="Btn_AddReciever" Content="Odbiorniki" HorizontalAlignment="Left" Height="54" Margin="60,396,0,0" VerticalAlignment="Top" Width="183" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="Btn_TypeOfManufacturer" Content="Producenci" HorizontalAlignment="Left" Height="54" Margin="292,396,0,0" VerticalAlignment="Top" Width="183" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" Click="Btn_TypeOfManufacturer_Click" />
+        <Button x:Name="Btn_AddScreen" Content="Wyświetlacze" HorizontalAlignment="Left" Height="54" Margin="530,396,0,0" VerticalAlignment="Top" Width="183" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="Btn_TypeOfActivation" Content="Aktywacje" HorizontalAlignment="Left" Height="54" Margin="765,396,0,0" VerticalAlignment="Top" Width="183" Background="#FFF4FF0B" FontSize="20" FontWeight="Bold" />
+    </Grid>
+</Page>

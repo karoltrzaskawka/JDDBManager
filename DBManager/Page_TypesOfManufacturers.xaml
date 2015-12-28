@@ -1,0 +1,19 @@
+﻿<Page x:Class="DBManager.Page_TypesOfManufacturers"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Page_TypesOfManufacturers" Width="1000" Height="600">
+
+    <Grid Background="#FF57A832" Width="1000" Height="600">
+        <Grid Width="1000" Height="600" Background="#FF57A832">
+            <ComboBox x:Name="cb_typProducenta" HorizontalAlignment="Left" Height="35" Margin="62,51,0,0" VerticalAlignment="Top" Width="240" Background="#FFF4FF0B" SelectionChanged="cb_typProducenta_SelectionChanged" BorderBrush="#FFF4FF0B" Foreground="Black" FontSize="20" MaxDropDownHeight="175"/>
+            <TextBox x:Name="Tb_Name" HorizontalAlignment="Left" Height="35" Margin="341,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FFF4FF0B" FontSize="20" Text="Nazwa"/>
+            <Button x:Name="Btn_Add" Content="Dodaj" HorizontalAlignment="Left" Height="48" Margin="62,120,0,0" VerticalAlignment="Top" Width="240" Background="#FFF4FF0B" FontSize="20" Click="Btn_Add_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Page>
